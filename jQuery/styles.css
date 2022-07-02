@@ -1,0 +1,22 @@
+body {
+    background-color: #f2ebe9;
+}
+
+
+.big-title {
+    font-size: 5rem;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.margin-50 {
+    margin: 50px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}

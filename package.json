@@ -1,0 +1,19 @@
+{
+  "name": "tamgros-personal-site",
+  "version": "1.0.0",
+  "description": "Umm, idk. I'm a scrub and don't know web dev, so I'm learning it now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamgros/tamgros-Personal-Site.git"
+  },
+  "author": "Matt Sorg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamgros/tamgros-Personal-Site/issues"
+  },
+  "homepage": "https://github.com/Tamgros/tamgros-Personal-Site#readme"
+}
