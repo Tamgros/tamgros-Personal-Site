@@ -7,4 +7,4 @@ https://tamgros.github.io/tamgros-Personal-Site/
 
 # TODO
 MVC
-https://github.com/solana-labs/solana/tree/master/explorer/src/components
+https://github.com/solana-labs/solana/tree/master/explorer
