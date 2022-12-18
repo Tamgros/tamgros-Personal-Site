@@ -6,8 +6,12 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.use(express.static(__dirname + '/WeatherProject'));
+
 app.get("/", function(req,res){
+    console.log("we here in weatherproject");
     res.sendFile(__dirname + "/index.html");
+    
 });
 
 app.post("/", function(req,res){
@@ -38,7 +42,10 @@ app.post("/", function(req,res){
 
 });
 
-
+app.post("/WeatherProject", function(req,res){
+    console.log(req);
+    res.send('hey');
+});
 
 app.listen(3000, function() {
     console.log("Server up and runing on 3000");
